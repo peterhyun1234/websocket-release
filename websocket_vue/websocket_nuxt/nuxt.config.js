@@ -20,6 +20,9 @@ module.exports = {
   /*
   ** Build configuration
   */
+  plugins: [
+    '~/plugins/vue-native-websocket'
+  ],
   build: {
     /*
     ** Run ESLint on save
